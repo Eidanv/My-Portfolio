@@ -5,11 +5,11 @@ padding: 0%;
 
 header{
 background: url(/img/Header_Background.png) no-repeat center top /cover;
-height:1000px;
+height: 1000px;
+
 }
 
 .clearfix:after{
-
     content: '';
     display: table;
     width: 100%;
@@ -27,6 +27,7 @@ nav{
     padding-right: 193px;
     float: right;
     margin-top: 25px;
+    
 }
 
 .menu{
@@ -48,21 +49,28 @@ text-decoration: none;
 font-size: 20px;
 }
 
+.menu li :hover{
+    color: #fa0000;
+    font-weight: bold;
+}
+
+.title{
+    height: 100%;
+}
+
 .title h1{
     font-size: 80px;
     color: white;
     padding-top: 150px;
-    padding-left: 430px;
+    text-align: center;
 }
 
 .title p{
     color: white;
     font-size: 20px;
     padding-top: 50px;
-    padding-left: 655px;
-    margin-top: 0px;
+    text-align: center;
 }
-
 
 
 #s1 img{
@@ -70,3 +78,7 @@ font-size: 20px;
     padding-top: 10px;
 }
 
+#About{
+    background-color: #b7b1b1;
+    
+}
